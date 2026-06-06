@@ -38,6 +38,16 @@ never log it, echo it back in plaintext, or commit it.
      --header "Authorization: Bearer THE_USERS_API_KEY"
    ```
 
+   For **Codex**, run (Codex has no inline-header flag — it reads the key from an
+   env var, so set `CREATORHUNTER_API_KEY` in the user's shell, e.g. `~/.zshrc`):
+
+   ```bash
+   export CREATORHUNTER_API_KEY="THE_USERS_API_KEY"
+   codex mcp add creatorhunter \
+     --url https://app.creatorhunter.io/api/mcp \
+     --bearer-token-env-var CREATORHUNTER_API_KEY
+   ```
+
    For Claude Desktop, Cursor, or any other MCP client, add this to the MCP
    servers config instead:
 
