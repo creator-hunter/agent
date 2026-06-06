@@ -1,6 +1,6 @@
 # CreatorHunter skill
 
-[![Add to your agent](https://skills.sh/b/PauliusOS/creatorhunter-skill)](https://skills.sh/PauliusOS/creatorhunter-skill)
+[![Add to your agent](https://skills.sh/b/creator-hunter/agent)](https://skills.sh/creator-hunter/agent)
 
 An [Agent Skill](https://skills.sh) that connects your AI agent to
 [CreatorHunter](https://app.creatorhunter.io) — find, match, and hunt down
@@ -11,7 +11,7 @@ CreatorHunter's remote MCP server.
 ## Install
 
 ```bash
-npx skills add PauliusOS/creatorhunter-skill
+npx skills add creator-hunter/agent
 ```
 
 Then create a personal API key at
