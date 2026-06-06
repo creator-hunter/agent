@@ -56,6 +56,13 @@ never log it, echo it back in plaintext, or commit it.
      --header "Authorization: Bearer THE_USERS_API_KEY"
    ```
 
+   For **Hermes Agent**, run (it stores the bearer token in Hermes credentials —
+   supply `THE_USERS_API_KEY` as the `Authorization: Bearer` header value):
+
+   ```bash
+   hermes mcp add creatorhunter --url https://app.creatorhunter.io/api/mcp --auth header
+   ```
+
    For Claude Desktop, Cursor, or any other MCP client, add this to the MCP
    servers config instead:
 
