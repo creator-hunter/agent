@@ -48,6 +48,14 @@ never log it, echo it back in plaintext, or commit it.
      --bearer-token-env-var CREATORHUNTER_API_KEY
    ```
 
+   For **Gemini CLI**, run:
+
+   ```bash
+   gemini mcp add --transport http creatorhunter \
+     https://app.creatorhunter.io/api/mcp \
+     --header "Authorization: Bearer THE_USERS_API_KEY"
+   ```
+
    For Claude Desktop, Cursor, or any other MCP client, add this to the MCP
    servers config instead:
 
